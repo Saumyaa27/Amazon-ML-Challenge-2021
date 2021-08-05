@@ -2,9 +2,9 @@
 
 Amazon ML Challenge WASs a two-stage competition where students from all engineering campuses across India were given a unique opportunity to work on Amazon’s dataset to bring in fresh ideas and build innovative solutions for a real-world problem statement.
 
-##APPROACH:
+## APPROACH:
 
-##DATA PREPROCESSING ON TRAIN DATA:
+## DATA PREPROCESSING ON TRAIN DATA:
 
 •	We have dropped the rows which were having null values in all columns.
 •	After that we cleaned the text data by removing stopwords, words with length less than 3, html tags,  numbers, punctuations and words like ‘inch’.
@@ -16,19 +16,19 @@ Amazon ML Challenge WASs a two-stage competition where students from all enginee
 4.	The null values in the DESCRIPTION column were replaced by the BULLET_POINTS values of the same row.
 Hence, no null value is left in the dataset.
 
-##FEATURE ENGINEERING:
+## FEATURE ENGINEERING:
 •	We made a set of words common in any two of the three columns i.e. TITLE, BULLET_POINTS and DESCRIPTION for each row.
 •	We added the BRAND value of that row in the set.
 •	After that, we created a new column- “Merged” , each row of which contained the set for that particular row.
 •	We used the Merged column for creating Bag of Words vector for the dataset.
 
-##TRAINING:
+## TRAINING:
 •	Using the Bag of Words we trained KNN model for 3 neighbours and metric=cosine.
 
-##TESTING:
+## TESTING:
 •	We did the same data preprocessing and feature engineering as on train dataset.
 •	We used the Bag of Words vector for testing our model and saved our result in the csv file.
 
-##LEADERBOARD RANKING:
+## LEADERBOARD RANKING:
 129/3290
 
