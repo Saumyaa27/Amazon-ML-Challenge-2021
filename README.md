@@ -1,6 +1,6 @@
 # Amazon-ML-Challenge-2021
 
-Amazon ML Challenge WASs a two-stage competition where students from all engineering campuses across India were given a unique opportunity to work on Amazon’s dataset to bring in fresh ideas and build innovative solutions for a real-world problem statement.
+Amazon ML Challenge was a two-stage competition where students from all engineering campuses across India were given a unique opportunity to work on Amazon’s dataset to bring in fresh ideas and build innovative solutions for a real-world problem statement.
 
 ## APPROACH:
 
